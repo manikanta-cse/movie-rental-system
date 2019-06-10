@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MovieRentalSystem.Movie;
+using MovieRentalSystem.Statements;
 
 namespace MovieRentalSystem
 {

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MovieRentalSystem
+﻿namespace MovieRentalSystem.Calculators
 {
     class BluRayMovieCalculator : ICalculator
     {
         public double Amount(int daysRented)
         {
-            return daysRented * Movie.BLURAY_MOVIE_PRICE;
+            return daysRented * Movie.Movie.BLURAY_MOVIE_PRICE;
         }
     }
 }

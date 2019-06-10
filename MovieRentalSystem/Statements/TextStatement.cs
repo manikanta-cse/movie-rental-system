@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using MovieRentalSystem.Movie;
 
-namespace MovieRentalSystem
+namespace MovieRentalSystem.Statements
 {
     public class TextStatement : IStatement
     {
